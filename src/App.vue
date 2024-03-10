@@ -12,6 +12,7 @@
     </my-dialog>
     <post-list :posts="posts" @remove="removePost" v-if="!isPostsLoading" />
     <my-spinner v-else />
+    <h1>VS Code commit from git hub</h1>
   </div>
 </template>
 
